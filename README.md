@@ -11,3 +11,11 @@ __Commands__
 
 * to check available commands in django:
 >django-admin
+
+Django has an in-built admin page
+url: localhost/admin
+
+For the first time:
+run:
+* python manage.py migrates 
+* python manage.py createsuperuser
